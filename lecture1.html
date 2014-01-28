@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +10,19 @@
     <meta name="author" content="todd m. gureckis">
     <link rel="shortcut icon" href="docs-assets/ico/favicon.png">
 
-    <title>collecting behavioral data online - lecture 1 - todd gureckis</title>
+    <title>collecting behavioral data online - todd gureckis (
+    Lecture 1
+    )</title>
 
+    <!-- JQuery and D3.js -->
     <script src="static/jquery-min.js" type="text/lib/javascript"> </script>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="cdbo.css" rel="stylesheet">
+    <link href="css/cdbo.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,7 +33,8 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-    <a href="https://github.com/gureckis/collecting_behavioral_data_online"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 999;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+  
+
 
   <body>
 
@@ -38,16 +42,20 @@
     <div id="wrap">
 
     <ol class="breadcrumb">
-      <li><a href="index.html">Home</a></li>
+    
+      <li><h4><a href="index.html">collecting behavioral data online</a></h4></li>
       <li class="active">Lecture 1</li>
+    
     </ol>
 
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
+          
           <h2>Lecture 1:</h2><h1>A new frontier?</h1>
+          
         </div>
-
+          
           <p>
               In our first lectures we will talk in general terms about 
               online data collection.  What are the advantages?  What are
@@ -95,28 +103,20 @@
                 Crump M.J.C., McDonnell, J.V., and Gureckis, T.M. (2013) Evaluating Amazon's Mechanical Turk as a Tool for Experimental Behavioral Research. PLoS ONE 8(3): e57410.
               </div>
             </div>
-
+          
       </div>
     </div>
 
-    <div id="footer">
+      <div id="footer">
       <div class="container">
         <p class="text-muted">(c) 2014. a <a href="http://gureckislab.org">gureckis lab</a> joint. bootstrapped with <a href="http://getbootstrap.com/">bootstrap</a></p>
       </div>
     </div>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-      <script type="text/javascript">
-        d3.selectAll(".classentry").on("mouseenter",function (d,i) { 
-                console.log("touching");
-                d3.select(this).style("background","lightblue"); 
-        }).on("mouseout",function (d,i) { 
-                console.log("touching");
-                d3.select(this).transition().duration(800).style("background","white"); 
-        });
-      </script>
+   
+   
   </body>
+
+
+
 </html>
