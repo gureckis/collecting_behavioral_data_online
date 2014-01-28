@@ -1,8 +1,9 @@
 from jinja2 import Environment, FileSystemLoader
-import os
+import os, sys
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+import argparse
 
 env = Environment(loader=FileSystemLoader('templates'))
 exclude_list = ['base.html', 'footer.html']
@@ -27,6 +28,7 @@ def print_hi():
 	print "hi"
 
 if __name__ == "__main__":
+	print "monitoring files for changes"
 	event_handler = MyHandler()
 	observer = Observer()
 	observer.schedule(event_handler, path='templates', recursive=True)
