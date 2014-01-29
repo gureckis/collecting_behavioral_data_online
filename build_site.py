@@ -15,7 +15,7 @@ class MyHandler(FileSystemEventHandler):
 	def on_modified(self, event):
 		#self.write_template()
 		file_changed = os.path.basename(event.src_path)
-		if file_changed not in exclude_list:
+		if file_changed not in EXCLUDE_LIST:
 			print file_changed + " changed"
 			self.write_template(file_changed)
 		else:
