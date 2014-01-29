@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="behavioral data collection, mechanical turk, psychology">
+    <meta name="author" content="todd m. gureckis">
+
+
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/remark.js" type="text/javascript"></script>
+
+    <!-- hit the Mint -->
+    <script src="http://gureckislab.org/mint/?js" type="text/javascript"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cdbo.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <textarea id="source">
+    </textarea>
+    <script type="text/javascript">
+
+      function getSearchParameters() {
+            var prmstr = window.location.search.substr(1);
+            return prmstr != null && prmstr != "" ? transformToAssocArray(prmstr) : {};
+      }
+
+      function transformToAssocArray( prmstr ) {
+          var params = {};
+          var prmarr = prmstr.split("&");
+          for ( var i = 0; i < prmarr.length; i++) {
+              var tmparr = prmarr[i].split("=");
+              params[tmparr[0]] = tmparr[1];
+          }
+          return params;
+      }
+
+      var params = getSearchParameters();
+
+      // this loads the markdown slide content from a file
+      $.ajaxSetup({async:false});
+      $("#source").load('lectures/lecture_' +params.lecture+".md")
+      d3.select("title").text('collecting behavioral data online - todd gureckis - (Lecture ' + params.lecture + ')')
+      var slideshow = remark.alloc();
+
+    
+      myslide = d3.selectAll(".remark-slide");
+      mynavbar = myslide.insert("ol", ":first-child").attr("class","breadcrumb absolutebar");
+      mynavbar.append("li").append("h4").append("a").attr("href","http://gureckislab.org").text("gureckislab");
+      mynavbar.append("li").append("h4").append("a").attr("href","http://gureckislab.org/courses/spring14/online_data_collection/").text("collecting behavioral data online");
+      mynavbar.append("li").append("h4").append("a").attr("href","http://gureckislab.org/courses/spring14/online_data_collection/lecture" + params.lecture+ ".html").text("lecture " + params.lecture);
+      mynavbar.append("li").text("slides");
+  
+
+
+      slideshow.on('showSlide', function (slide) {
+      });
+      slideshow.start();
+
+    </script>
+
+  </body>
+</html>

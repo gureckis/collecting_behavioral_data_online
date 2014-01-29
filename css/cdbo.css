@@ -36,6 +36,88 @@ h4 {
     border: none;
 }
 
+/* Lectures style
+-------------------------------------------------- */
+.remark-position {
+    color: black;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    bottom: 30px;
+    right: 30px;
+}
+
+
+/* overall slide backdrops */
+.inverse {
+  border: 16px solid #f3f3f3;
+  background: #fff;
+  width: 100%;
+}
+.bright {
+  border: 16px solid #f3f3f3;
+  background: #fff;
+  width: 100%;
+}
+.black {
+  border: 16px solid #f3f3f3;
+  background: #000;
+  width: 100%;        
+}
+.light {
+  border: 16px solid #fff;
+  background: #f3f3f3;
+  width: 100%;
+}
+.dark {
+  border: 16px solid #f3f3f3;
+  background: #9a9da1;
+  width: 100%;
+}
+
+.absolutebar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  float: left;
+  clear: both;
+}
+
+.remark-slide-content {
+  font-size: 16px;
+}
+.remark-slide-content p {
+
+    -webkit-margin-after: 0.01em;
+    -webkit-margin-before: 0.25em;
+}
+div.remark-slide-content li {
+    -webkit-margin-after: 0.6em;
+    -webkit-margin-before: 1.25em;        
+}
+.remark-slide-content li.past {
+    color: #c2c2c2;
+}
+.remark-slide-content li.present {
+    color: black;
+}
+.remark-slide-content li.future {
+    color: #fff;
+    opacity: 0.0;
+}
+.remark-slide-content .citation {
+  color: #c3c3c3;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.remark-slide-content li.past.citation {
+    color: #c2c2c2;
+}
+
+.remark-slide-content li.future.citation {
+    color: #fff;
+}
 
 /* Syllabus style
 -------------------------------------------------- */
