@@ -74,6 +74,14 @@ h4 {
   width: 100%;
 }
 
+      .footnote {
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        color: #c1c1c1;
+        font-size: 11px;
+      }
+
 .absolutebar {
   position: absolute;
   width: 100%;

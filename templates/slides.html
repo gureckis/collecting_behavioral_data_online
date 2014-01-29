@@ -49,11 +49,11 @@
 
       // this loads the markdown slide content from a file
       $.ajaxSetup({async:false});
-      $("#source").load('lectures/lecture_' +params.lecture+".md")
+      $("#source").load('lectures/lecture_'+params.lecture+".md")
       d3.select("title").text('collecting behavioral data online - todd gureckis - (Lecture ' + params.lecture + ')')
       var slideshow = remark.alloc();
 
-    
+      // add navigation to all slides
       myslide = d3.selectAll(".remark-slide");
       mynavbar = myslide.insert("ol", ":first-child").attr("class","breadcrumb absolutebar");
       mynavbar.append("li").append("h4").append("a").attr("href","http://gureckislab.org").text("gureckislab");
@@ -61,10 +61,6 @@
       mynavbar.append("li").append("h4").append("a").attr("href","http://gureckislab.org/courses/spring14/online_data_collection/lecture" + params.lecture+ ".html").text("lecture " + params.lecture);
       mynavbar.append("li").text("slides");
   
-
-
-      slideshow.on('showSlide', function (slide) {
-      });
       slideshow.start();
 
     </script>
