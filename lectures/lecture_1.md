@@ -1,4 +1,4 @@
-class: middle, center, bright
+class: middle, center
 
 ### Lecture 1
 <hr>
@@ -11,7 +11,7 @@ class: middle, center, bright
 welcome to class
 
 ---
-class:  middle, bright
+class:  middle
 
 # Agenda
 <hr>
@@ -22,7 +22,7 @@ class:  middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 **Instructor**
 <hr>
@@ -42,14 +42,14 @@ When you email me, PLEASE make the subject line include **[online_data]**
 
 ---
 
-class: center, middle, bright
+class: center, middle
 
 <img src="images/brainbw.png" width="150px">
 # Who are you?
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # What is this course about
@@ -62,7 +62,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 # Why do we need a course about this?
 <hr>
@@ -78,7 +78,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # Why is this good stuff to learn?
@@ -94,7 +94,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # Why isn't this just "IT" department stuff?
@@ -110,7 +110,7 @@ Sure, send you mouth swabs out to a genetics lab, but as psychologists/marketers
 
 ---
 
-class: middle, bright
+class: middle
 
 #### The best reason
 # It is actually pretty fun
@@ -118,7 +118,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # Course webpage
@@ -135,7 +135,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # This is a "Flipped" Classroom
@@ -151,7 +151,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # Computer requirement
@@ -167,7 +167,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # Grading
@@ -179,7 +179,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # The singular goal of this course is to help you build an experiment for your research.
@@ -187,7 +187,7 @@ I want you to go back to your labs and share it and get this tool into more peop
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # If you are just generally interested in online experiments, don't take this class.
@@ -195,7 +195,7 @@ There's not a ton of theory here.  It is a course for makers.
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # What can be done in online experiments?
@@ -218,7 +218,7 @@ If your interest lies in these area, might not be bad course for you.
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # What skills will we cover in this class?
@@ -245,7 +245,7 @@ following things
 
 ---
 
-class: middle, bright
+class: middle
 
 
 # Learning to learn
@@ -256,7 +256,7 @@ teach yourself to solve problems.
 
 ---
 
-class: middle, bright
+class: middle
 
 # This class in **opinionated**
 <hr>
@@ -270,7 +270,7 @@ class: middle, bright
 
 ---
 
-class: middle, bright
+class: middle
 
 ### Most important rule for this class
 # Be organized.  Be careful.
@@ -278,7 +278,7 @@ class: middle, bright
 ... and you won't make bugs and waste time.
 
 ---
-class: middle, bright
+class: middle
 
 # For next time
 <hr>

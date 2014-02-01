@@ -74,13 +74,21 @@ h4 {
   width: 100%;
 }
 
-      .footnote {
-        position: absolute;
-        bottom: 20px;
-        left: 30px;
-        color: #c1c1c1;
-        font-size: 11px;
-      }
+.red    { color: #FF4943; }
+.gray   { color: #787878; }
+.green  { color: #92d12d; }
+.blue   { color: #41C8F0; }
+.yellow { color: #dbcb14; }
+.orange { color: #eaab0c; }
+.white {color: white;}
+
+.footnote {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: #c1c1c1;
+  font-size: 11px;
+}
 
 .absolutebar {
   position: absolute;
@@ -92,9 +100,14 @@ h4 {
 }
 
 .remark-slide-content {
+  border: 16px solid #f3f3f3;
+  margin-top: 20px;
+  background: white;
+  width: 100%;
   font-size: 16px;
-  /*font:normal normal 400 1em/1.5em Georgia,Serif*/
 }
+
+
 .remark-slide-content p {
 
     -webkit-margin-after: 0.01em;
