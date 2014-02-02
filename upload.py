@@ -6,6 +6,7 @@ from config import *
 manifest = ['index.html',
 			'syllabus.html',
 			'lecture1.html',
+			'lecture2.html',
 			'slides.html',
 			'lectures',
 			'images',

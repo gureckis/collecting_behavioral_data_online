@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="behavioral data collection, mechanical turk, psychology">
+    <meta name="author" content="todd m. gureckis">
+
+    <title>collecting behavioral data online - todd gureckis (
+    Lecture 1
+    )</title>
+
+    <!-- JQuery and D3.js -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+    <!-- hit the Mint -->
+    <script src="http://gureckislab.org/mint/?js" type="text/javascript"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cdbo.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+    <ol class="breadcrumb">
+    
+      
+      <li><h4><a href="http://gureckislab.org">gureckislab</a></h4></li>
+    
+      <li><h4><a href="index.html">collecting behavioral data online</a></h4></li>
+      <li class="active">Lecture 2</li>
+    
+    </ol>
+
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          
+          <h2>Lecture 2:</h2><h1> Online data: A revolution for behavioral science? Or perhaps a curse?</h1>
+          
+        </div>
+          
+
+          <center>
+          <a class="btn btn-default btn-md" href="slides.html?lecture=2">
+            <span class="glyphicon glyphicon-play-circle"></span> Lecture 2 Slide Deck
+          </a>
+          </center>
+
+          <br><br>
+          <p>
+              Today we will discuss the ups and downs of online data collection for science.
+              In addition, we'll take the first step towards running online experiments
+              by creating and account with <a href="http://aws.amazon.com/">Amazon Web Services</a>.
+              We'll use this to access Mechanical Turk, but also this gives you access
+              to a range of cloud-based computing tools.  We'll also get set up with <a href="http://github.com">github</a>, which 
+              is a code management/version control system with many useful social features.
+              Finally, I'll show a quick a dirty way to collect data online using <a href="http://www.google.com/google-d-s/createforms.html">Google Forms</a>.
+          </p>
+
+          <hr>
+
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Video 2.1</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                  <p>
+                    Do online experiments replicate what is found in the lab?  Are online
+                    workers different than the undergraduate subject pool?  How naive to experimental
+                    manipulations are online workers?
+                  </p>
+                  <iframe src="//player.vimeo.com/video/85670225" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div> 
+              </div>
+              </div>
+            </div>
+          </div>
+        
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Video 2.2</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                  <p>
+                    Getting setup with <a href="http://mturk.com/">Amazon Mechanical Turk</a> and <a href="https://github.com/">github.com</a>.
+                  </p>
+                   <iframe src="//player.vimeo.com/video/85629881" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+              </div> 
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Video 2.3</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                  <p>
+                    Simple stuff: Creating a simple web-enabled survey using Google Forms.
+                  </p>
+                   <iframe src="//player.vimeo.com/video/85616052" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div> 
+              </div>
+              </div>
+            </div>
+          </div>
+
+       
+
+          <hr>
+
+          <h3>Assignments</h3>
+
+          <ol>
+            <li>Follow the instructions in the video to create both a worker and requester account on Mechanical Turk.</li>
+            <li>Follow the instruction in the video to create a github.com account</li>
+            <li>Fill out the <a href="https://docs.google.com/forms/d/1nrJ4TWWCe7pWbWNM1WO8haUmG9FW7BHHCkH3iZWe1UE/viewform">Pre-class survey Google Form</a> I showed you how to create in the video 2.3</li>
+            <li>Be ready to discuss the content of the videos and the readings below for class Wednesday</li>
+          </ol>
+
+          <hr>
+
+          <h3>Assigned Readings</h3>
+
+            <div class="media">
+              <a class="pull-left" href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0057410">
+                <span class="glyphicon glyphicon-cloud-download"></span>
+              </a>
+              <div class="media-body">
+                Crump M.J.C., McDonnell, J.V., and Gureckis, T.M. (2013) Evaluating Amazon's Mechanical Turk as a Tool for Experimental Behavioral Research. <i>PLoS ONE</i> 8(3): e57410.
+              </div>
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="http://download.springer.com/static/pdf/421/art%253A10.3758%252Fs13428-013-0365-7.pdf?auth66=1391458588_2d23ce732270443fedaef4cc89f163ea&ext=.pdf">
+                <span class="glyphicon glyphicon-cloud-download"></span>
+              </a>
+              <div class="media-body">
+                Chandler, J., Mueller, P., and Paolacci, G. (2013) Nonnaivete among Amazon Mechanical Turk workers: Consequences and soclutions for behavioral researchers. <i>Behavioral research methods</i> 8(3): e57410.
+              </div>
+            </div>
+
+
+          <hr>
+
+          <h3>Additional References and Links</h3>
+
+            <div class="media">
+              <a class="pull-left" href="http://experimentalturk.wordpress.com/">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>Experimental Turk </b> - a blog on social science experiments on Amazon Mechanical Turk
+              </div>
+            </div>
+
+
+            <div class="media">
+              <a class="pull-left" href="http://mechanicalturk.typepad.com/">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                Amazon's <b>Mechanical Turk</b> blog
+              </div>
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/">
+                <span class="glyphicon glyphicon-bookmark"></span><br>
+              </a>
+              <div class="media-body">
+                What exactly is <b>GitHub</b> Anyway?  [via techcrunch.com]
+              </div>
+            </div>
+
+
+            <div class="media">
+              <a class="pull-left" href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~ouEtwfuVdLD2c5">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>GitHub</b> For Beginners: Don't Get Scared, Get Started  [via readwrite.com]
+              </div>
+            </div>
+
+
+            <div class="media">
+              <a class="pull-left" href="http://gureckislab.org/blog/?p=2521">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>Git</b> for cognitive scientists by <a href="http://jvmcd.nl/">John McDonnell</a> [via gureckislab blog]
+              </div>
+            </div>
+
+          <br>
+          
+      </div>
+    </div>
+
+       <div id="footer">
+      <div class="container">
+        <p class="text-muted">(c) 2014 to <a href="http://gureckislab.org/~gureckis">tmg</a>. <a href="http://getbootstrap.com/">bootstrap</a>ped.</p>
+      </div>
+    </div>
+
+   
+   
+
+  </body>
+
+</html>

@@ -141,6 +141,27 @@ div.remark-slide-content li {
     color: #fff;
 }
 
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 50%;
+  float: left;
+}
+.left-column h2 {
+  opacity: 0.3;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #353E4C;
+  opacity: 1.0;
+}
+
+.right-column {
+  width: 50%;
+  float: right;
+  padding-top: 1em;
+}
+
 /* Syllabus style
 -------------------------------------------------- */
 
