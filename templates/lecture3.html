@@ -1,0 +1,213 @@
+{% extends "base.html" %}
+
+    {% block subtitle %}
+    (Lecture 3)
+    {% endblock %}
+
+    {% block breadcrumbs %}
+      {{ super() }}
+      <li><h4><a href="./">collecting behavioral data online</a></h4></li>
+      <li class="active">Lecture 3</li>
+    {% endblock %}
+
+
+          {% block pagetitle %}
+          <h2>Lecture 3:</h2><h1>Views from the other side of a request online</h1>
+          {% endblock %}
+
+
+          {% block pagecontent %}
+
+          <center>
+          <a class="btn btn-default btn-md" href="slides.html?lecture=3">
+            <span class="glyphicon glyphicon-play-circle"></span> Lecture 3 Slide Deck
+          </a>
+          </center>
+
+          <br><br>
+          <p>
+              This week we're going to focus on what it is like to be a participant
+              in online studies.  First, we're going to do a bit of work online ourselves
+              to get a sense of the type of tasks people have available and how your
+              experiment might compare.  Second, we will talk about the
+              communities that online workers have developed to exchange information
+              about tasks and people requesting work.  Finally, we'll dive into the ethics of
+              online experientation including labor rates, issues of fairness, and
+              possible legal issues involved in work-for-hire.
+          </p>
+
+          <hr>
+
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Video 3.1</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                  <p>
+                    Wherein your humble professor attempts to increase his salary by doing
+                    online experiments for one hour.  He also tries out worker tools that
+                    give information on requesters.  He offers his first proverb of
+                    online data collection: "pay generously, have good quality/instruction checks, and disappear quickly"
+                  </p>
+                  <iframe src="//player.vimeo.com/video/86480926" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div> 
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <!--
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Video 3.2</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                  <p>
+                    How to fork and clone a project on github.
+                  </p>
+                  <iframe src="//player.vimeo.com/video/85670225" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div> 
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Video 3.3</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="span6">
+              <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                  <p>
+                    Basic introduction to Javascript in the browser.
+                  </p>
+                  <iframe src="//player.vimeo.com/video/85670225" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div> 
+              </div>
+              </div>
+            </div>
+          </div>
+        -->
+
+
+
+          <hr>
+
+          <h3>Assignments</h3>
+
+          <ol>
+            <li>Spend 30 minutes-1 hour on Mechanical Turk as a worker trying out various tasks.  Please note your thoughs and experiences and share them in class next time.</li>
+            <li>Please try to fork and clone a copy of my demo project as explained in video 3.2.</li>
+            <li>Play around with the built-in browser development tools (see video 3.3).</li>
+            <li>Be ready to discuss the content of the videos and the readings below for class</li>
+          </ol>
+
+          <hr>
+
+          <h3>Assigned Readings</h3>
+
+            <div class="media">
+              <a class="pull-left" href="http://aclweb.org/anthology/J/J11/J11-2010.pdf">
+                <span class="glyphicon glyphicon-cloud-download"></span>
+              </a>
+              <div class="media-body">
+                Fort, K., Adda, G., Cohen, K.B. (2011).  Amazon Mechanical Turk: Gold Mine or Coal Mine? <i>Computational Linguistics</i>.  37(2)
+              </div>
+            </div>
+
+
+
+
+            <div class="media">
+              <a class="pull-left" href="http://wtf.tw/ref/martin.pdf">
+                <span class="glyphicon glyphicon-cloud-download"></span>
+              </a>
+              <div class="media-body">
+                Martin, D., Hanrahan, B.V., O'Neil, J. and Gupta, N. (2014).  Being a Turker <i>CSCW 2014</i> Feb. 15-19, 2014, Baltimore, Maryland. [<a href="http://bambuser.com/v/4174380">movie version</a>]
+              </div>
+            </div>
+
+           <div class="media">
+              <a class="pull-left" href="http://www.thenation.com/article/178241/how-crowdworkers-became-ghosts-digital-machine?utm_content=buffer2b563&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#">
+                <span class="glyphicon glyphicon-cloud-download"></span>
+              </a>
+              <div class="media-body">
+                Marvit, M.Z. (2014).  How crowdworkers become the ghosts in the digital machine.  <i>The Nation</i>
+              </div>
+            </div>
+
+          <hr>
+
+          <h3>Additional References and Links</h3>
+
+            <div class="media">
+              <a class="pull-left" href="http://turkopticon.differenceengines.com/">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>Turkopticon</b> - a browser plugin that works with the AMT Hit page to give you rating on requesters
+              </div>
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href=" http://turkernation.com/forum.php">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>Turker Nation</b> - another popular forum for Amazon Mechanical Turk workers.  This one has special features that are only available if you actively contribute to the site including tips on how to maximize
+                revenue.
+              </div>
+            </div>
+            
+
+            <div class="media">
+              <a class="pull-left" href="http://www.turkalert.com/">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>Turkalert</b> - A service that emails you when your favorite requester posts HITs
+              </div>
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="http://www.mturkgrind.com/forum.php">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>mturkgrind</b> - a popular forum for Amazon Mechanical Turk workers
+              </div>
+            </div>
+
+
+            <div class="media">
+              <a class="pull-left" href="https://www.mturk.com/mturk/help?helpPage=worker">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                Amazon's <b>Mechanical Turk</b> worker FAQ - Answers to "How do I complete a HIT?", etc...
+              </div>
+            </div>
+
+
+            <div class="media">
+              <a class="pull-left" href="http://mturk-tracker.com/general/">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a>
+              <div class="media-body">
+                <b>mturk Tracker</b> - a website that crawls AMT and monitors activity/rewards/etc...
+              </div>
+            </div>
+
+          <br>
+          {% endblock %}
