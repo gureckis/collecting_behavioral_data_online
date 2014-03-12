@@ -14,7 +14,7 @@ welcome to class
 
 class: middle, center
 
-# Starting simple: Using built-in Amazon tools, Google Forms, or Qualtrics.  Basic HTML/CSS/JS.
+# Drawing things to the browser window, manipulating the DOM
 
 ---
 class:  middle
@@ -22,18 +22,12 @@ class:  middle
 # Agenda
 <hr>
 
-1. Overview of the Amazon "sandbox"
-1. How to create a HIT using Amazon's built in tools
-1. Basics of HTML/CSS/JS
+Everything today is hands on... we're going to try to do these three things:
 
----
+1. Write a function to draw a stimulus on the screen (e.g., a circle)
+2. Add a button to advance to the next trial
+3. Display a sequence of trials
 
-class: middle, center
+Please follow along using the copy of the ["super_basic_web_app"](https://github.com/gureckis/super_basic_web_app)
+that you forked then cloned on git last week.
 
-# Using built-in Amazon tools
-
----
-
-class: middle, center
-
-# Basics of HTML/CSS/JS
